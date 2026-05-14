@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products & Services - GreenTech Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="GreenTech Solutions Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products/Services</a></li>
+                <li><a href="blog.html">Blog/Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="products-hero">
+            <h1>Our Products & Services</h1>
+            <p>Explore our innovative eco-friendly solutions.</p>
+            <aside class="filter" role="search">
+                <label for="search">Search Products:</label>
+                <input type="text" id="search" placeholder="Search products...">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="all">All Categories</option>
+                    <option value="devices">Devices</option>
+                    <option value="systems">Systems</option>
+                    <option value="software">Software</option>
+                </select>
+            </aside>
+        </section>
+
+        <section class="products-list">
+            <h2 id="products-list-heading" class="sr-only">Product Catalog</h2>
+            <article class="product-card" data-category="devices">
+                <figure>
+                    <img src="images/energy-device.jpg" alt="Energy-efficient device reducing power consumption">
+                    <figcaption>Energy-Efficient Device</figcaption>
+                </figure>
+                <h3>Energy-Efficient Device 1</h3>
+                <p>Detailed description of the energy-efficient device. It helps reduce energy consumption by up to 30%.</p>
+                <p class="price">$199.99</p>
+                <button class="btn">Learn More</button>
+            </article>
+            <article class="product-card" data-category="systems">
+                <figure>
+                    <img src="images/recycling-system.jpg" alt="Smart recycling system for waste management">
+                    <figcaption>Smart Recycling System</figcaption>
+                </figure>
+                <h3>Smart Recycling System</h3>
+                <p>Automated system for efficient waste sorting and recycling. Improves recycling rates by 50%.</p>
+                <p class="price">$499.99</p>
+                <button class="btn">Learn More</button>
+            </article>
+            <article class="product-card" data-category="software">
+                <figure>
+                    <img src="images/carbon-software.jpg" alt="Carbon tracking software dashboard">
+                    <figcaption>Carbon Tracking Software</figcaption>
+                </figure>
+                <h3>Carbon Tracking Software</h3>
+                <p>Comprehensive tool for monitoring and managing carbon footprints. Includes reporting and analytics.</p>
+                <p class="price">$99.99/month</p>
+                <button class="btn">Learn More</button>
+            </article>
+        </section>
+
+        <section class="product-comparison">
+            <h2 id="comparison-heading">Product Comparison</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Key Benefit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Energy-Efficient Device</td>
+                        <td>Devices</td>
+                        <td>$199.99</td>
+                        <td>30% energy reduction</td>
+                    </tr>
+                    <tr>
+                        <td>Smart Recycling System</td>
+                        <td>Systems</td>
+                        <td>$499.99</td>
+                        <td>50% recycling improvement</td>
+                    </tr>
+                    <tr>
+                        <td>Carbon Tracking Software</td>
+                        <td>Software</td>
+                        <td>$99.99/month</td>
+                        <td>Complete carbon monitoring</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 GreenTech Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

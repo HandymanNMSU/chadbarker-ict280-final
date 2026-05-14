@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GreenTech Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="GreenTech Solutions Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products/Services</a></li>
+                <li><a href="blog.html">Blog/Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="contact-hero">
+            <h1>Contact Us</h1>
+            <p>Get in touch with GreenTech Solutions for inquiries, support, or partnerships.</p>
+        </section>
+
+        <section class="contact-info">
+            <h2 id="contact-info-heading">Contact Information</h2>
+            <dl>
+                <dt>Email</dt>
+                <dd><a href="mailto:info@greentechsolutions.com">info@greentechsolutions.com</a></dd>
+                <dt>Phone</dt>
+                <dd><a href="tel:+1234567890">(123) 456-7890</a></dd>
+                <dt>Address</dt>
+                <dd>
+                    <address>
+                        123 Green Street<br>
+                        Alamogordo, NM 88311<br>
+                        United States
+                    </address>
+                </dd>
+            </dl>
+        </section>
+
+        <section class="contact-form">
+            <h2 id="form-heading">Send Us a Message</h2>
+            <form id="contact-form">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    
+                    <div class="form-group">
+                        <label for="name">Name <span aria-label="required">*</span></label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email <span aria-label="required">*</span></label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message <span aria-label="required">*</span></label>
+                        <textarea id="message" name="message" required aria-required="true"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 GreenTech Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
